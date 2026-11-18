@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    padding-top: 30px;
+}
+body > header {
+    background-color: rgb(173, 235, 240);
+}
+header > p {
+    text-align: center;
+    color: darkviolet;
+    padding-bottom: 30px;
+}
+nav {
+    background-color: rgb(255, 193, 226);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+a {
+    color: rgb(95, 19, 95);
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+     display: flex ;
+     font-size: 18px;
+     padding: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    padding: 15px;
+    
+}
+aside {
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    text-align: center;
+}
+aside img {
+    margin: auto;
+}
+table {
+    text-align: center;
+}
+p {
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+h2 {
+    margin-bottom: 24px;
+    line-height: 1.6;
+    text-align: center;
+}
